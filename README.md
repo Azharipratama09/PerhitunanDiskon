@@ -61,11 +61,11 @@ try {
 ~~~
 • ItemListener pada JComboBox untuk memilih persentase diskon
 ~~~
-private void jSlider1StateChanged(javax.swing.event.ChangeEvent evt) {                                      
-          jSlider1.addChangeListener((ChangeEvent e) -> {
-    lblDiskonSlider.setText(jSlider1.getValue() + "%");
-});
-    } 
+      initComponents();
+        jComboBox1.addItem("10%");
+        jComboBox1.addItem("20%");
+        jComboBox1.addItem("30%");
+    }
 ~~~
 5. Variasi:
 • Tambahkan opsi untuk memasukkan kode kupon diskon tambahan
