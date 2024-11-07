@@ -93,6 +93,7 @@ private void jSlider1StateChanged(javax.swing.event.ChangeEvent evt) {
  jTextArea1.append(hasilRiwayat);
  ~~~
 
+## Hasil Setelah Di Run
 ![Cuplikan layar 2024-11-06 163002](https://github.com/user-attachments/assets/97f57466-43c8-4de1-88c7-2d368c4f490a)
 
 
